@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en>
+    <head>
+        <meta charset = "utf-8">
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body {
+                padding: 25px;
+                background-color: white;
+                color: black;
+                font-size: 25px;
+            }
+            .dark-mode {
+                background-color: black;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="namagame">
+            <p>Selamat datang ke Permainan rock, paper, scissors</p>
+            <p>Saya dengan nama Filbert dengan NIM 19622041</p>
+        </header>
+        <div class="Halamanutama">
+            <p><a href="index.html">MULAI PERMAINAN !!!</a></p>
+        </div>
+        <script src="app.js" charset ="utf-8"></script>
+
+        <div class="button">
+            <button onclick="darkMode()">Darkmode</button>
+        </div>
+        <script>
+            function darkMode() {
+              var element = document.body;
+              element.classList.toggle("dark-mode");
+            }
+        </script>
+    </body>
+</html>
